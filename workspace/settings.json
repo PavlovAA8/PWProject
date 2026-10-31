@@ -1,0 +1,11 @@
+{
+  "ip": "192.168.1.64",
+  "port": 554,
+  "username": "admin",
+  "password": "_20@ASme901",
+  "stream": "101",
+  "remember_password": true,
+  "checks_root": "G:\\Рабочий стол\\VKR\\Проверки",
+  "model": "G:/Рабочий стол/VKR/diamond_trade_app/runs/segment_13_train/weights/best.pt",
+  "calibration": ""
+}

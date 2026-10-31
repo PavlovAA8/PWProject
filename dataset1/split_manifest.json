@@ -1,0 +1,766 @@
+{
+  "task": "segment",
+  "seed": 42,
+  "grouping_verified_by_user": false,
+  "automatically_assigned_images": [
+    "ART_1.png",
+    "ART_10.png",
+    "ART_11.png",
+    "ART_12.png",
+    "ART_13.png",
+    "ART_14.png",
+    "ART_15.png",
+    "ART_16.png",
+    "ART_17.png",
+    "ART_18.png",
+    "ART_19.png",
+    "ART_2.png",
+    "ART_20.png",
+    "ART_21.png",
+    "ART_22.png",
+    "ART_23.png",
+    "ART_24.png",
+    "ART_25.png",
+    "ART_26.png",
+    "ART_27.png",
+    "ART_28.png",
+    "ART_29.png",
+    "ART_3.png",
+    "ART_30.png",
+    "ART_31.png",
+    "ART_32.png",
+    "ART_33.png",
+    "ART_34.png",
+    "ART_35.png",
+    "ART_36.png",
+    "ART_37.png",
+    "ART_38.png",
+    "ART_39.png",
+    "ART_4.png",
+    "ART_40.png",
+    "ART_41.png",
+    "ART_42.png",
+    "ART_43.png",
+    "ART_44.png",
+    "ART_45.png",
+    "ART_46.png",
+    "ART_47.png",
+    "ART_48.png",
+    "ART_49.png",
+    "ART_5.png",
+    "ART_50.png",
+    "ART_51.png",
+    "ART_52.png",
+    "ART_53.png",
+    "ART_54.png",
+    "ART_55.png",
+    "ART_56.png",
+    "ART_57.png",
+    "ART_58.png",
+    "ART_59.png",
+    "ART_6.png",
+    "ART_60.png",
+    "ART_61.png",
+    "ART_62.png",
+    "ART_63.png",
+    "ART_64.png",
+    "ART_65.png",
+    "ART_66.png",
+    "ART_67.png",
+    "ART_68.png",
+    "ART_69.png",
+    "ART_7.png",
+    "ART_70.png",
+    "ART_71.png",
+    "ART_72.png",
+    "ART_73.png",
+    "ART_74.png",
+    "ART_75.png",
+    "ART_76.png",
+    "ART_77.png",
+    "ART_78.png",
+    "ART_79.png",
+    "ART_8.png",
+    "ART_80.png",
+    "ART_81.png",
+    "ART_82.png",
+    "ART_83.png",
+    "ART_9.png"
+  ],
+  "names": [
+    "Объемная вывеска — выключена",
+    "Объемная вывеска — включена",
+    "Неоновая вывеска — выключена",
+    "Неоновая вывеска — включена",
+    "Другое",
+    "Неравномерность свечения",
+    "Негорящие участки",
+    "Повреждения поверхности",
+    "Деформации",
+    "Дефекты сборки",
+    "Загрязнения",
+    "Блик",
+    "Подложка / каркас"
+  ],
+  "files": [
+    {
+      "image": "ART_1.png",
+      "group": "ART_1",
+      "split": "train",
+      "sha256": "c7bf15845852c9ed6bf87e695df52eb6f35bf27cd3bc78b28f4c36d5a18135e0"
+    },
+    {
+      "image": "ART_10.png",
+      "group": "ART_10",
+      "split": "train",
+      "sha256": "7d8cf9db26a59b15668963a708f8a5714f897ab39cf34e7f96fcab7bbc3402df"
+    },
+    {
+      "image": "ART_100.png",
+      "group": "пиксели - не свет",
+      "split": "train",
+      "sha256": "e9610e3a7c3e1e0b4711aa273dd13056ea7b1336c34085b0163d3b673b75ee8b"
+    },
+    {
+      "image": "ART_11.png",
+      "group": "ART_11",
+      "split": "val",
+      "sha256": "b6f8027a03fa5d44b9e91c9cd3358a2f4ff28096b675190d3c6560bea3e57bb7"
+    },
+    {
+      "image": "ART_12.png",
+      "group": "ART_12",
+      "split": "val",
+      "sha256": "c1cd6114cab8878f607b364b627ca21cf314d80a166ec9376312f4027b66ef72"
+    },
+    {
+      "image": "ART_13.png",
+      "group": "ART_13",
+      "split": "train",
+      "sha256": "15af498a82dd8ed8056c241f378835c695c140889cf01337fa2e7b241fc07474"
+    },
+    {
+      "image": "ART_14.png",
+      "group": "ART_14",
+      "split": "train",
+      "sha256": "bf5762f2b0a9dca6c1b77863b7d79d118625090bc8c9cc65ad39396b5d381725"
+    },
+    {
+      "image": "ART_15.png",
+      "group": "ART_15",
+      "split": "train",
+      "sha256": "039538fc1b7dac13222bd95586e4dbb89a9325a3e5aacb912b4e4cb77ab54ede"
+    },
+    {
+      "image": "ART_16.png",
+      "group": "ART_16",
+      "split": "train",
+      "sha256": "bcf739a089f81f935857ef949090052e4c7c0bed55a5d230f142f5b8efa62b51"
+    },
+    {
+      "image": "ART_17.png",
+      "group": "ART_17",
+      "split": "val",
+      "sha256": "98c8f9ef4259d5a95a9fa9500ddab0f9e7cc9c233fa02bbf8eced0d986a319b6"
+    },
+    {
+      "image": "ART_18.png",
+      "group": "ART_18",
+      "split": "train",
+      "sha256": "fc226b3431f359e5c48b7628ceee2a4d57d19ba81d992197e951aef515d49c52"
+    },
+    {
+      "image": "ART_19.png",
+      "group": "ART_19",
+      "split": "train",
+      "sha256": "7e5e661adf8aa3120c4fdec34692f9c7d351a12990570f06a7d10e7ab2891c1d"
+    },
+    {
+      "image": "ART_2.png",
+      "group": "ART_2",
+      "split": "train",
+      "sha256": "1507e69427679ace82c305cd786a71655696ece5cb3bf8f3ca94b1d7525eae74"
+    },
+    {
+      "image": "ART_20.png",
+      "group": "ART_20",
+      "split": "train",
+      "sha256": "1eec8d7fdde6e994e31d63536955d99f6a0d10bff2dfc8dcbda59aeda83b9d2f"
+    },
+    {
+      "image": "ART_21.png",
+      "group": "ART_21",
+      "split": "train",
+      "sha256": "525c75a46cfed3fd47c5ed582193b4ed22b630f2b272ed0757cd199eda95365a"
+    },
+    {
+      "image": "ART_22.png",
+      "group": "ART_22",
+      "split": "test",
+      "sha256": "a3685e0eca56928822c1bb5b3f60949fd62d428e22ccaf37fb73f2772a74b475"
+    },
+    {
+      "image": "ART_23.png",
+      "group": "ART_23",
+      "split": "train",
+      "sha256": "35eeffba153c5fb359c9ce451c957813f1b9db9e76f19f96385d21f893700d68"
+    },
+    {
+      "image": "ART_24.png",
+      "group": "ART_24",
+      "split": "train",
+      "sha256": "845b14698f6c208ca93a5f4c54162f2da6a265db40534072f20556442e79d1ad"
+    },
+    {
+      "image": "ART_25.png",
+      "group": "ART_25",
+      "split": "train",
+      "sha256": "eb83765188b681b53c80088c7ffa11c8d8234eaf003c6473021630efe891cc88"
+    },
+    {
+      "image": "ART_26.png",
+      "group": "ART_26",
+      "split": "train",
+      "sha256": "38b213cf91f89b9657c7dbf0b00ea6224ba935278f7efea33da6711ed4544ac0"
+    },
+    {
+      "image": "ART_27.png",
+      "group": "ART_27",
+      "split": "test",
+      "sha256": "72b5938a9f723e7c51956e1f047a43a04b0aead287c8e9d6e2acecff7f548617"
+    },
+    {
+      "image": "ART_28.png",
+      "group": "ART_28",
+      "split": "train",
+      "sha256": "da177a63d633f572f4f21d20c92508239630da7875a1246b3d16518f43cb26f7"
+    },
+    {
+      "image": "ART_29.png",
+      "group": "ART_29",
+      "split": "train",
+      "sha256": "7273e8f1c3a02196ab9cc25a8f8a18f7b6016055457a3b40a40c9d8ac99da979"
+    },
+    {
+      "image": "ART_3.png",
+      "group": "ART_3",
+      "split": "train",
+      "sha256": "3e0c7562fd56874eee84aaffd7ff10cb032c2571d266677321e5f30da912c706"
+    },
+    {
+      "image": "ART_30.png",
+      "group": "ART_30",
+      "split": "test",
+      "sha256": "29366e6650b4e4d95b1cafb8502edcdef53dd2504d3d8c5004af7bef87b3f466"
+    },
+    {
+      "image": "ART_31.png",
+      "group": "ART_31",
+      "split": "train",
+      "sha256": "59226382f59fd831cf65e6511992b777ca5781b396a7ac8f2ad81054c175c9e7"
+    },
+    {
+      "image": "ART_32.png",
+      "group": "ART_32",
+      "split": "test",
+      "sha256": "12098a042e2e40e4e0378d2ad26245ab7f296d4b6a95ece770f9e416df780196"
+    },
+    {
+      "image": "ART_33.png",
+      "group": "ART_33",
+      "split": "test",
+      "sha256": "66ffebecf3efb5effbe5435bb188520f9aa4e3953c4a8d1fd5892aae7412e4f9"
+    },
+    {
+      "image": "ART_34.png",
+      "group": "ART_34",
+      "split": "train",
+      "sha256": "196a0b2f79ae251e9983a06431a3e43b1ae950203f8fe13fd8c39401fd0d8f73"
+    },
+    {
+      "image": "ART_35.png",
+      "group": "ART_35",
+      "split": "train",
+      "sha256": "92b15d2b32f36d94423cd0b14ae8383e3b534fd4cac7bf1fa4dacfa0c6c8ce18"
+    },
+    {
+      "image": "ART_36.png",
+      "group": "ART_36",
+      "split": "train",
+      "sha256": "8332209f3f2800bcdaec3d944da10460f358ff294aaf377040e4ab6d62c6150c"
+    },
+    {
+      "image": "ART_37.png",
+      "group": "ART_37",
+      "split": "test",
+      "sha256": "c6a36eb43d10dd798ff05467b568331cea87e1c21dd249b938fb3223dad23566"
+    },
+    {
+      "image": "ART_38.png",
+      "group": "ART_38",
+      "split": "train",
+      "sha256": "fdae6205c498ecdc95d9f82cd2921bcb2edecf0544740921752a3a330080b04d"
+    },
+    {
+      "image": "ART_39.png",
+      "group": "ART_39",
+      "split": "train",
+      "sha256": "810412f0414a87785b49422acfba27085d6d895d701ef4fbdf59e578f763498e"
+    },
+    {
+      "image": "ART_4.png",
+      "group": "ART_4",
+      "split": "train",
+      "sha256": "adf806637cd223855c352b6d9acaa7288ccdd4ecc26c3a174bac2a29bb1eef77"
+    },
+    {
+      "image": "ART_40.png",
+      "group": "ART_40",
+      "split": "val",
+      "sha256": "81ec7b69cafaa78f029c81f20deb54c08cb13427b1aae16dc6fb4b2641b897c9"
+    },
+    {
+      "image": "ART_41.png",
+      "group": "ART_41",
+      "split": "val",
+      "sha256": "d986e0d4939b220cbd5c8e17d1d36bcd710106639f56aefa4748dda62b207edf"
+    },
+    {
+      "image": "ART_42.png",
+      "group": "ART_42",
+      "split": "train",
+      "sha256": "a113aac8db1a07ac9e14e519ab120174d95f59ce598a8615bfce0cb4ac3f91ca"
+    },
+    {
+      "image": "ART_43.png",
+      "group": "ART_43",
+      "split": "train",
+      "sha256": "1a7ed1d146e6851900c75dcde79820762ffe8413eeac0385c99063a5ccf3fbaf"
+    },
+    {
+      "image": "ART_44.png",
+      "group": "ART_44",
+      "split": "test",
+      "sha256": "c2d5c43017b18f5090eca584f94fe750b3b46a50328caa20e474efcd247b9e52"
+    },
+    {
+      "image": "ART_45.png",
+      "group": "ART_45",
+      "split": "train",
+      "sha256": "58d2ff2629e2f383e61a0492641cc07cef9e499ea1cba0fa1cce265a64e8b57f"
+    },
+    {
+      "image": "ART_46.png",
+      "group": "ART_46",
+      "split": "train",
+      "sha256": "f35f825c9e47cefca6e1d340ed8070d674bccf399dff89730363e2713fe6efff"
+    },
+    {
+      "image": "ART_47.png",
+      "group": "ART_47",
+      "split": "test",
+      "sha256": "a2f8ec1ef7a89a7df88dc804de5836fe44c696ac59fa76f823af0fcf1bb22976"
+    },
+    {
+      "image": "ART_48.png",
+      "group": "ART_48",
+      "split": "test",
+      "sha256": "55bf79883804bb01e6b3918028127dff5793973d197b054c24e5c3f9676ef00b"
+    },
+    {
+      "image": "ART_49.png",
+      "group": "ART_49",
+      "split": "val",
+      "sha256": "4f281075ffed0d53af9abbfd28e4b3413c8e973662465894faa984973d2e8f30"
+    },
+    {
+      "image": "ART_5.png",
+      "group": "ART_5",
+      "split": "train",
+      "sha256": "23f0b8b8125c1fc021f920edd9ff54c0cfad5fb3865a10f1492561972c6551e8"
+    },
+    {
+      "image": "ART_50.png",
+      "group": "ART_50",
+      "split": "train",
+      "sha256": "7929952c7b77f6cede46470dbcd2d213015679df02ab8e42c3a5e040e8d9a4d2"
+    },
+    {
+      "image": "ART_51.png",
+      "group": "ART_51",
+      "split": "train",
+      "sha256": "5465ca444384a8bb6cd961ba9c64ee9fd705fa95c4e14e4ffa3dbb85caa5c3d7"
+    },
+    {
+      "image": "ART_52.png",
+      "group": "ART_52",
+      "split": "train",
+      "sha256": "67d7a7c122e3b7c5cace08ac9afecf82153d932abc4da431a1a9f6ce2f1a34d5"
+    },
+    {
+      "image": "ART_53.png",
+      "group": "ART_53",
+      "split": "val",
+      "sha256": "a3172b946d41752b128938abd9f96453cb193338c740f61f43c01b35641473de"
+    },
+    {
+      "image": "ART_54.png",
+      "group": "ART_54",
+      "split": "val",
+      "sha256": "9f47a0543d05060a5cf8f23f7517e80174cd03cbec37f54de9d66eefab4a26ba"
+    },
+    {
+      "image": "ART_55.png",
+      "group": "ART_55",
+      "split": "train",
+      "sha256": "59cf84f2e24becc4597f9db7f0f133acfd9e65fcb8c2e7ee798e26bab8090ad8"
+    },
+    {
+      "image": "ART_56.png",
+      "group": "ART_56",
+      "split": "train",
+      "sha256": "a402586e2425b5f33d92c575106a2f323819d0662e57dbf88af5b81d0026989e"
+    },
+    {
+      "image": "ART_57.png",
+      "group": "ART_57",
+      "split": "train",
+      "sha256": "a4d61679e335ec6eb95aaaa26d6981c4343d7c92f3a4982167e18198470d7aa0"
+    },
+    {
+      "image": "ART_58.png",
+      "group": "ART_58",
+      "split": "train",
+      "sha256": "1933b6663545b0c3ea69c17846e7c12b0d588099ebb6e977f4c1c47d2f8817ef"
+    },
+    {
+      "image": "ART_59.png",
+      "group": "ART_59",
+      "split": "train",
+      "sha256": "0d54a4e881eddb9eed49552f5e8ac2ea637c974657b77d9b26bb6430c3325c27"
+    },
+    {
+      "image": "ART_6.png",
+      "group": "ART_6",
+      "split": "train",
+      "sha256": "ff6ef44c8cacf63fb9ec68cc65fbe58b1f1c5e8f3cf94b022d5b00bc57edda24"
+    },
+    {
+      "image": "ART_60.png",
+      "group": "ART_60",
+      "split": "train",
+      "sha256": "c7e4397a21eec5e6a3a0c7a9d76c258ec3103c67a0403de491840073ad37af97"
+    },
+    {
+      "image": "ART_61.png",
+      "group": "ART_61",
+      "split": "train",
+      "sha256": "ab7c94a88a853ee6c9fa916a629991bb1c89367f2eb41a2b1aa5458e02f904f5"
+    },
+    {
+      "image": "ART_62.png",
+      "group": "ART_62",
+      "split": "val",
+      "sha256": "d7e855dbc2b3aa635e4f12b1a77d4f0938ce19323948688d0422b7871e5f7a9c"
+    },
+    {
+      "image": "ART_63.png",
+      "group": "ART_63",
+      "split": "train",
+      "sha256": "1e01743c8040200b8864be8c358336f12f792113a96ac4f4d5d1699b1670e243"
+    },
+    {
+      "image": "ART_64.png",
+      "group": "ART_64",
+      "split": "train",
+      "sha256": "cd5c29c041f0248b3f46ba2c92cea97ba7a414d075c3e7c9a8802dd238025c03"
+    },
+    {
+      "image": "ART_65.png",
+      "group": "ART_65",
+      "split": "train",
+      "sha256": "aad3a9084eb2ba3a19dfd04b01771dab441befbc48c39addcd65374926932c41"
+    },
+    {
+      "image": "ART_66.png",
+      "group": "ART_66",
+      "split": "train",
+      "sha256": "639ee3a3921960764c81bf0d874a8c0175c3c5445fae7aab7b18af33b3d564a1"
+    },
+    {
+      "image": "ART_67.png",
+      "group": "ART_67",
+      "split": "val",
+      "sha256": "b3d8ea2ee40c0a722c24a95adfffddba825b3002541726ea9941da626eb918b7"
+    },
+    {
+      "image": "ART_68.png",
+      "group": "ART_68",
+      "split": "train",
+      "sha256": "db95e93c9c312e99b13255284384a277794733cfac4be24862083a1a632b3dbd"
+    },
+    {
+      "image": "ART_69.png",
+      "group": "ART_69",
+      "split": "val",
+      "sha256": "40e1009d4b9bc74860bd721ee8d57f5693cc09acb49eac2d667d7964ef1aeb7b"
+    },
+    {
+      "image": "ART_7.png",
+      "group": "ART_7",
+      "split": "val",
+      "sha256": "7d5cd67a80d89b888bb9e3a74ce3ecd2f00689075764de61c7d4e64ed356c800"
+    },
+    {
+      "image": "ART_70.png",
+      "group": "ART_70",
+      "split": "train",
+      "sha256": "fc5ba5cca56cc2de3d0f2f12e8d9b11e0c3d7d9a6f7fd4807b7ec0ce9b4c6080"
+    },
+    {
+      "image": "ART_71.png",
+      "group": "ART_71",
+      "split": "train",
+      "sha256": "53198050af68299b5b670048eadd04f9885ea1488ad3ea373793ffce97474c35"
+    },
+    {
+      "image": "ART_72.png",
+      "group": "ART_72",
+      "split": "test",
+      "sha256": "4317cddde4294cb766330ba3a67d2ca1ef4a0bb039563c0dbfad79158c60c0e4"
+    },
+    {
+      "image": "ART_73.png",
+      "group": "ART_73",
+      "split": "train",
+      "sha256": "5bdb1d342e6d871c5f3e3b78cbbe814c19b551cd1a68d19a82f26210e4e8c704"
+    },
+    {
+      "image": "ART_74.png",
+      "group": "ART_74",
+      "split": "val",
+      "sha256": "9f2ee1fc461e2da38132de044aebb4b0df3780ea260a6c757cc134614cbc87a6"
+    },
+    {
+      "image": "ART_75.png",
+      "group": "ART_75",
+      "split": "train",
+      "sha256": "0b10a05b0ed09e6c1eac13b8718ae95efd6b7f1e98299b3362e601990d8123a6"
+    },
+    {
+      "image": "ART_76.png",
+      "group": "ART_76",
+      "split": "test",
+      "sha256": "76613bed98669cb7bcf9603f6e0dde268b763e9571446f97ed081efd020534ee"
+    },
+    {
+      "image": "ART_77.png",
+      "group": "ART_77",
+      "split": "train",
+      "sha256": "73e447a905ce2e63692c7f9e9751a6e7f9f0e191a00f66379ee6156b8c23303b"
+    },
+    {
+      "image": "ART_78.png",
+      "group": "ART_78",
+      "split": "train",
+      "sha256": "443451c8580d9a5df1c65671ab4992c0838b8eeffae5cb901d9b4cc4465c56a6"
+    },
+    {
+      "image": "ART_79.png",
+      "group": "ART_79",
+      "split": "test",
+      "sha256": "a22185c95c1ca6b9cd79f2edbcb1ac109eabc44b2bbec04a87dfdd07db343c09"
+    },
+    {
+      "image": "ART_8.png",
+      "group": "ART_8",
+      "split": "train",
+      "sha256": "1b197e16529a531352a66877abd93528fc2beda9a036d875e9db4468f11fcee3"
+    },
+    {
+      "image": "ART_80.png",
+      "group": "ART_80",
+      "split": "train",
+      "sha256": "1cb839f436178b138b999eed8e64d94e6d2a278740d306b07b90e9a6f79a7a00"
+    },
+    {
+      "image": "ART_81.png",
+      "group": "ART_81",
+      "split": "train",
+      "sha256": "9e76e8f2decfd42e66f63e17bf17c11aa0c0e55d2f477078ca3ae2c73a86409e"
+    },
+    {
+      "image": "ART_82.png",
+      "group": "ART_82",
+      "split": "test",
+      "sha256": "96fe9a3238ef0ed6cf921a8d1a97ae84853248c3c73b16ef50c4b18ce3625ce9"
+    },
+    {
+      "image": "ART_83.png",
+      "group": "ART_83",
+      "split": "train",
+      "sha256": "fe866caa07ee2e1f654f9ca5d500b0996d3e220e68b0a7f521c9ee6154a8e001"
+    },
+    {
+      "image": "ART_84.png",
+      "group": "13 квартал",
+      "split": "train",
+      "sha256": "b43c9b9e63f831c6ed1fd7d715550639219bfd67e5e4329c40677853ff844001"
+    },
+    {
+      "image": "ART_85.png",
+      "group": "1649240870616",
+      "split": "val",
+      "sha256": "3a646c468fa8efc39f38c5b9c6c8cd0b1196bb8c0dd8bc33c206afdee91805b1"
+    },
+    {
+      "image": "ART_86.png",
+      "group": "2020-05-08-16-36-44",
+      "split": "train",
+      "sha256": "e0475b1ddfcceb24d598012d3fd0b866709d388c7d1ab96d3bdbbdc46c64e815"
+    },
+    {
+      "image": "ART_87.png",
+      "group": "20220719_104004",
+      "split": "train",
+      "sha256": "1a989e80e37d8f04d475bbba7828a76cd561b93e01e7cf33942a8a1843691d81"
+    },
+    {
+      "image": "ART_88.png",
+      "group": "20220719_104045",
+      "split": "train",
+      "sha256": "d3e2db0eeab502e7aafe42028720dfd201556a28ec86a2e35d73ae4a218eb5d6"
+    },
+    {
+      "image": "ART_89.png",
+      "group": "20220719_104336",
+      "split": "train",
+      "sha256": "906b42e2f3ed9dc822d9e9875abc43bae22f174fb32c37d207dd9e05feac2af4"
+    },
+    {
+      "image": "ART_9.png",
+      "group": "ART_9",
+      "split": "train",
+      "sha256": "8022bb4541237dab6d0c20c40ef781f0cd0b9c1e624318141ba3749d9b5c5fe6"
+    },
+    {
+      "image": "ART_90.png",
+      "group": "7b0ee405b83164ed3a48c19f0bbd0a95",
+      "split": "train",
+      "sha256": "df4e4003723222e4aa38b349b9dd6eaae614170231741b83cee9d5f0d6e49f26"
+    },
+    {
+      "image": "ART_91.png",
+      "group": "d7cda15faeff59dc5abcc3ca89f1e24a",
+      "split": "train",
+      "sha256": "52fb19ec865875e9a36d8ffe273d5bd528c6376b43e3d4c70405e23de5787e7a"
+    },
+    {
+      "image": "ART_92.png",
+      "group": "DSC02083_1",
+      "split": "train",
+      "sha256": "b70571379b198bb5576e4879c0061aee26062ec8bd1c5f356a8dc742fb7059ca"
+    },
+    {
+      "image": "ART_93.png",
+      "group": "DSC02153",
+      "split": "val",
+      "sha256": "be351746629c1d267e207eec4b74444c88115e352b3b26629b9f5624362a40c8"
+    },
+    {
+      "image": "ART_94.png",
+      "group": "DSC03292",
+      "split": "test",
+      "sha256": "18b5025f6bd03be0cd0a8164e1a247274a63663015546bd33d9ac2176a8677a5"
+    },
+    {
+      "image": "ART_95.png",
+      "group": "DSC03297",
+      "split": "train",
+      "sha256": "e54ca9aca9fde96ea02d2e0bc4ce798023c5312aaaee4543b977f5b3e558e23f"
+    },
+    {
+      "image": "ART_96.png",
+      "group": "DSC03303",
+      "split": "train",
+      "sha256": "3a17649c74be9bb9e0ba61c58f5e30df1ea239ce6c3f860bdeb11384ff14064b"
+    },
+    {
+      "image": "ART_97.png",
+      "group": "IMG_3049",
+      "split": "train",
+      "sha256": "998ac66632d620f7c8bfeebcad4b011d7b48bcbcc760d871af4c007ead91c92b"
+    },
+    {
+      "image": "ART_98.png",
+      "group": "IMG_9556",
+      "split": "test",
+      "sha256": "50a785ac51fa19d2e6b4d3e493a7d8f3d25bf19a92d44a9f079470716a407998"
+    },
+    {
+      "image": "ART_99.png",
+      "group": "WhatsApp Image 2025-01-14 at 17.41.03",
+      "split": "train",
+      "sha256": "315eb9630abd324ef878e9d243ad8e6f604f93567c82846c2c23f19cf0923bfd"
+    }
+  ],
+  "splits": {
+    "train": {
+      "images": 70,
+      "groups": 70,
+      "objects": {
+        "Объемная вывеска — выключена": 113,
+        "Объемная вывеска — включена": 136,
+        "Неоновая вывеска — выключена": 25,
+        "Неоновая вывеска — включена": 68,
+        "Другое": 5,
+        "Неравномерность свечения": 13,
+        "Негорящие участки": 17,
+        "Повреждения поверхности": 84,
+        "Деформации": 22,
+        "Дефекты сборки": 6,
+        "Загрязнения": 39,
+        "Блик": 114,
+        "Подложка / каркас": 25
+      }
+    },
+    "val": {
+      "images": 15,
+      "groups": 15,
+      "objects": {
+        "Объемная вывеска — выключена": 25,
+        "Объемная вывеска — включена": 36,
+        "Неоновая вывеска — выключена": 0,
+        "Неоновая вывеска — включена": 4,
+        "Другое": 2,
+        "Неравномерность свечения": 6,
+        "Негорящие участки": 10,
+        "Повреждения поверхности": 23,
+        "Деформации": 7,
+        "Дефекты сборки": 3,
+        "Загрязнения": 23,
+        "Блик": 23,
+        "Подложка / каркас": 4
+      }
+    },
+    "test": {
+      "images": 15,
+      "groups": 15,
+      "objects": {
+        "Объемная вывеска — выключена": 12,
+        "Объемная вывеска — включена": 18,
+        "Неоновая вывеска — выключена": 0,
+        "Неоновая вывеска — включена": 1,
+        "Другое": 2,
+        "Неравномерность свечения": 22,
+        "Негорящие участки": 2,
+        "Повреждения поверхности": 24,
+        "Деформации": 21,
+        "Дефекты сборки": 1,
+        "Загрязнения": 9,
+        "Блик": 31,
+        "Подложка / каркас": 4
+      }
+    }
+  }
+}

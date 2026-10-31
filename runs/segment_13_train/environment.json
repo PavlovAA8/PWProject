@@ -1,0 +1,19 @@
+{
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.11.0+cu130",
+  "ultralytics": "8.4.38",
+  "initial_weights_sha256": "361fbfabab285c3237700b6bb91d7ecfa602cd945fffda8dbe1242829b71e73f",
+  "data_yaml_sha256": "34b1ee67be432091579d7d60f748cd6d9a6eed2da235a270391730fd588f3888",
+  "arguments": {
+    "command": "train",
+    "model": "G:\\Рабочий стол\\VKR\\diamond_trade_app\\models\\yolo26n-seg.pt",
+    "data": "G:/Рабочий стол/VKR/diamond_trade_app/dataset/data.yaml",
+    "epochs": 150,
+    "patience": 30,
+    "batch": 2,
+    "imgsz": 960,
+    "mask_ratio": 1,
+    "device": "0",
+    "seed": 42
+  }
+}

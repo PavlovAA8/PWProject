@@ -1,0 +1,7 @@
+{
+  "kind": "single_photo",
+  "source_original": "G:\\Рабочий стол\\VKR\\Датасет\\Исходники фото\\459ef986-6194-4669-b01a-aada79125c9f.jpg",
+  "source_copy": "459ef986-6194-4669-b01a-aada79125c9f.jpg",
+  "model_path": "G:/Рабочий стол/VKR/diamond_trade_app/runs/segment_13_train/weights/best.pt",
+  "status": "complete"
+}

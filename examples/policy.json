@@ -1,0 +1,15 @@
+{
+  "candidate_threshold": 0.01,
+  "product_threshold": 0.35,
+  "attribute_threshold": 0.25,
+  "defect_thresholds": {
+    "5": 0.15,
+    "6": 0.15,
+    "7": 0.15,
+    "8": 0.15,
+    "9": 0.15,
+    "10": 0.15
+  },
+  "association_threshold": 0.5,
+  "duplicate_iou": 0.75
+}

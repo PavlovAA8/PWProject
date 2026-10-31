@@ -1,0 +1,89 @@
+{
+  "Объемная вывеска — выключена": {
+    "evaluated": true,
+    "mask_precision": 0.29652359544795703,
+    "mask_recall": 0.24,
+    "mask_mAP50": 0.23159882010093089,
+    "mask_mAP50_95": 0.16595764540393432
+  },
+  "Объемная вывеска — включена": {
+    "evaluated": true,
+    "mask_precision": 0.3845268990681876,
+    "mask_recall": 0.5,
+    "mask_mAP50": 0.4581125779589873,
+    "mask_mAP50_95": 0.3647934592462484
+  },
+  "Неоновая вывеска — выключена": {
+    "evaluated": false
+  },
+  "Неоновая вывеска — включена": {
+    "evaluated": true,
+    "mask_precision": 1.0,
+    "mask_recall": 0.0,
+    "mask_mAP50": 0.0028160919540229884,
+    "mask_mAP50_95": 0.0025344827586206895
+  },
+  "Другое": {
+    "evaluated": true,
+    "mask_precision": 1.0,
+    "mask_recall": 0.0,
+    "mask_mAP50": 0.25382911392405066,
+    "mask_mAP50_95": 0.2048912183544304
+  },
+  "Неравномерность свечения": {
+    "evaluated": true,
+    "mask_precision": 0.9302472203705161,
+    "mask_recall": 0.3333333333333333,
+    "mask_mAP50": 0.3883333333333333,
+    "mask_mAP50_95": 0.22305555555555556
+  },
+  "Негорящие участки": {
+    "evaluated": true,
+    "mask_precision": 1.0,
+    "mask_recall": 0.0,
+    "mask_mAP50": 0.0,
+    "mask_mAP50_95": 0.0
+  },
+  "Повреждения поверхности": {
+    "evaluated": true,
+    "mask_precision": 0.07607576798841259,
+    "mask_recall": 0.043478260869565216,
+    "mask_mAP50": 0.028128028814669286,
+    "mask_mAP50_95": 0.0035563093749734222
+  },
+  "Деформации": {
+    "evaluated": true,
+    "mask_precision": 0.4942247079845048,
+    "mask_recall": 0.2857142857142857,
+    "mask_mAP50": 0.236,
+    "mask_mAP50_95": 0.10672259136212625
+  },
+  "Дефекты сборки": {
+    "evaluated": true,
+    "mask_precision": 1.0,
+    "mask_recall": 0.0,
+    "mask_mAP50": 0.0,
+    "mask_mAP50_95": 0.0
+  },
+  "Загрязнения": {
+    "evaluated": true,
+    "mask_precision": 1.0,
+    "mask_recall": 0.0,
+    "mask_mAP50": 0.0,
+    "mask_mAP50_95": 0.0
+  },
+  "Блик": {
+    "evaluated": true,
+    "mask_precision": 0.0,
+    "mask_recall": 0.0,
+    "mask_mAP50": 0.00045212765957446804,
+    "mask_mAP50_95": 0.00010505319148936169
+  },
+  "Подложка / каркас": {
+    "evaluated": true,
+    "mask_precision": 1.0,
+    "mask_recall": 0.0,
+    "mask_mAP50": 0.5556060606060608,
+    "mask_mAP50_95": 0.38941496908888223
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "kind": "single_photo",
+  "source_original": "G:\\Рабочий стол\\VKR\\Датасет\\Обучение\\media_87825m1585912010_дефекты.png",
+  "source_copy": "media_87825m1585912010_дефекты.png",
+  "model_path": "G:/Рабочий стол/VKR/diamond_trade_app/runs/segment_13_train/weights/best.pt",
+  "status": "complete"
+}
